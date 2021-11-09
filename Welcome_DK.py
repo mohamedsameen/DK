@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 from scipy import stats
 from pymatreader import read_mat
 import math
-import scipy
-#hello
+
+
 #import matlab vectors
 #FV
 dict1=read_mat('C:\\Users\\b1044271\\Desktop\\Sodium\\Projects\\Paper\\2021\\Results\\ERPs\\FV_EDF_KClocked.mat')
@@ -18,3 +18,6 @@ cond2=dict2['UFV_KCl_EDF']
 mean2=np.mean(cond2,0)
 sem2=stats.sem(cond2,0)
 cond2_ar=np.asarray(cond2)
+
+X = 1+1
+Print(X)
