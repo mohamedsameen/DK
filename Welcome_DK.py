@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 from scipy import stats
 from pymatreader import read_mat
 import math
+import scipy
 
 #import matlab vectors
 #FV
